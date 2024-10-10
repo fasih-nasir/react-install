@@ -40,8 +40,26 @@ git add .
 git commit -m "Updated code with new changes"
 git push origin main
 ------------------------------------------------------------------------
+
 ## Install React-Router
 npm install react-router@6 react-router-dom@6
+
+------------------------------------------------------------------------
+## 404: NOT_FOUND
+Code: NOT_FOUND
+ID: bom1:bom1::tvxsm-1728595843229-2e2f73b16f3c ##
+
+SOLUTION IS= 
+
+Create a file "vercel.json"
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
 
 
 ------------------------------------------------------------------------
